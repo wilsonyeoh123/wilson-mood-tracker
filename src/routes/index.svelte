@@ -1,8 +1,7 @@
 
-
 <script>
     import supabase from '$lib/db';
-    import Signup from '$lib/signup.svelte';
+   
     async function logout() {
    	 const { error } = await supabase.auth.signOut();
 
@@ -10,10 +9,6 @@
     }
 
 </script>
-<style>
-    @import
-   url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css");
-</style>
 
 
    
@@ -22,4 +17,3 @@
     <button class="btn btn-secondary" on:click={logout}>Logout</button>
 </section>		
 
-<signup/>

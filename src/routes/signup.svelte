@@ -15,7 +15,6 @@
     }
 </script>
 
-
 <div class="card mt-5 m-auto text-center" style="width: 24em;">
     <div class="card-body">
    	 <h5 class="card-title">Welcome</h5>
